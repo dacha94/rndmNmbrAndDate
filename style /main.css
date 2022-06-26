@@ -1,0 +1,110 @@
+html,
+body {
+    height: 100%;
+    line-height: 160%;
+    font-size: 12px;
+    color: #1e4326;
+    font-family: 'Staatliches', sans-serif;
+}
+
+.wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.form * {
+    outline: none;
+    text-transform: uppercase;
+}
+
+.form {
+    max-width: 5000px;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.form__item {
+    position: relative;
+}
+
+.form__input {
+    margin: 25px;
+}
+
+.form__label {
+    position: absolute;
+    top: 8px;
+    left: 15px;
+    z-index: 1;
+    justify-self: center;
+}
+
+/* оформление */
+.form__title {
+    font-size: 24px;
+    color: #284a0c;
+    text-shadow: 0 2px 0 #23262f3b;
+    letter-spacing: 0.1em ;
+    line-height: 200%;
+    margin: 0px;
+    padding: 0px 0px 18px 0px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.form__button {
+    margin-bottom: 20px;
+}
+
+.form__input {
+    color: #23262F;
+    width: 250px;
+    box-sizing: border-box;
+    padding: 18px 15px 5px 15px;
+    background-color: #FFFFFF;
+    border: solid 1px #425B5F;
+    border-radius: 8px;
+    transition: all 0.5s ease 0s;
+    text-align: center;
+}
+
+.form__input:focus {
+    border: solid 1px #000000;
+}
+
+.form__label {
+    background-color: #FFFFFF;
+    padding: 0px 5px;
+    overflow: hidden;text-align: center;
+    color: #425B5F;
+}
+
+/* баттон */
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    color:#164815;
+    text-transform: uppercase;
+    border-radius: 8px;
+    padding: 13px 30px;
+    min-width: 60px;
+    cursor: pointer;
+    transition: background-color 0.4s ease 0s;
+    box-shadow: 0 2px 0 #23262f3b;
+}
+
+.button_color-green {
+    background-color: #3c704f ;
+    margin-left: 15px;
+}
+
+.button_color-green:hover {
+    background-color: rgb(76, 153, 111);
+}
